@@ -1,0 +1,80 @@
+
+div,body{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+div.head
+{
+    border: 20px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    top: 40px;
+    left: 100px;
+
+}
+div.torso{
+    border: 20px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    top: 110px;
+    left: 75px;
+}
+div.lower{
+    border: 20px solid white;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+div.collar{
+    background-color: #ff884d;
+    border: solid 1px #ff884d;
+    width: 90px;
+    height: 15px;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    z-index: 1;
+    border-radius: 2px;
+}
+div.eye1{
+    background-color: #660000;
+    border: 1px solid #660000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top:5px;
+    left: -2px;
+}
+div.eye2{
+    background-color: #660000;
+    border: 1px solid #660000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top:5px;
+    left: 35px;
+}
+div.container{
+    border-radius: 20px;
+    position: relative;
+    border: #660000 1px solid;
+    height: 400px;
+    width: 400px;
+    background-color: #660000;
+    top: 20px;
+    left: 10px;
+}
